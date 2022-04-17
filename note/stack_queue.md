@@ -5,6 +5,7 @@
 * 삭제 pop
 > 오버플로 : 수용할 수 있는 크기를 넘어선 상태에서 삽입  
 > 언더플로 : 데이터가 없는 상태에서 삭제  
+Stack과 Queue를 활용한 대표적인 알고리즘에는 [DFS와 BFS](note/DFS_BFS.md)가 있음
 
 ## 스택 Stack
 후입선출  
@@ -48,3 +49,5 @@ print(queue) # 먼저 들어온 순서대로 출력
 queue.reverse() # 다음 출력을 위해 역순으로 바꾸기
 print(queue) # 나중에 들어온 원소부터 출력
 ```
+
+[🏠 목록으로](https://github.com/SeeunChoi1/ProblemSolving#%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%9D%B4%EB%A1%A0-%EC%A0%95%EB%A6%AC)
