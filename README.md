@@ -26,6 +26,10 @@
     * [벨만-포드 알고리즘]()
     * [플로이드-워셜 알고리즘]()
 
+# Key Note
+* [2차원 배열 90도 회전](note/keyNote/rotateMatrix.md)
+* [DFS로 순열,조합 구현](note/keyNote/dfsPerCombi.md)
+
 # 알고리즘 문제풀이
 문제풀이 언어 : python
 * [🖥 백준](exercise/baekjoon)
