@@ -30,6 +30,7 @@
     * [삽입 정렬]()
     * [퀵 정렬]()
     * [계수 정렬]()
+* [그리디](/note/algorithm/greedy.md)
 
 # Key Note
 * [2차원 배열 90도 회전](note/keyNote/rotateMatrix.md)
