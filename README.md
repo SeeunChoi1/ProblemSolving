@@ -22,9 +22,9 @@
     * [이분탐색]()
     * [위상정렬]()
 * [최단경로 알고리즘](note/algorithm/shortestPath.md)
-    * [다익스트라 알고리즘](note/algorithm/shortestPath.md)
-    * [벨만-포드 알고리즘]()
-    * [플로이드-워셜 알고리즘]()
+    * 다익스트라 알고리즘
+    * 플로이드-워셜 알고리즘
+    * 벨만-포드 알고리즘
 * [정렬](/note/algorithm/sort.md)
     * 선택 정렬
     * 삽입 정렬
