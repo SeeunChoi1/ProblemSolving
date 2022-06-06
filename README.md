@@ -5,9 +5,9 @@
 * [우선순위큐 / 힙](note/dataStructure/queue_heap.md)
 * [해시 맵](note/dataStructure/hash_map.md)
 * [트리](note/dataStructure/tree.md)
-    * [이진 트리(Binary Tree)](note/dataStructure/binary_tree.md)
-    * [완전 이진 트리(Complete Binary Tree)](note/dataStructure/complete_binary_tree.md)
-    * [최소 스패닝 트리(MST, Minmum Spanning Tree)](note/dataStructure/msp.md)
+    * 이진 트리(Binary Tree)
+    * 완전 이진 트리(Complete Binary Tree)
+    * 최소 스패닝 트리(MST, Minmum Spanning Tree)
 
 # 알고리즘 이론 정리
 * [순열 / 조합]()
@@ -21,16 +21,19 @@
     * [크루스칼 알고리즘]()
     * [이분탐색]()
     * [위상정렬]()
-* [최단경로 알고리즘]()
-    * [다익스트라 알고리즘]()
+* [최단경로 알고리즘](note/algorithm/shortestPath.md)
+    * [다익스트라 알고리즘](note/algorithm/shortestPath.md)
     * [벨만-포드 알고리즘]()
     * [플로이드-워셜 알고리즘]()
-* 정렬
-    * [선택 정렬]()
-    * [삽입 정렬]()
-    * [퀵 정렬]()
-    * [계수 정렬]()
+* [정렬](/note/algorithm/sort.md)
+    * 선택 정렬
+    * 삽입 정렬
+    * 퀵 정렬
+    * 계수 정렬
 * [그리디](/note/algorithm/greedy.md)
+* [탐색](note/algorithm/search.md)
+    * 순차 탐색
+    * 이진 탐색
 
 # Key Note
 * [2차원 배열 90도 회전](note/keyNote/rotateMatrix.md)
