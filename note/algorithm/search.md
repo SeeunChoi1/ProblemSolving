@@ -95,4 +95,5 @@ print(re)
 ---
 참고
 - 이것이 취업을 위한 코딩 테스트다 with 파이썬 - 나동빈 저
+- [ssongplay/[Python] bisect 라이브러리](https://velog.io/@ssongplay/Python-bisect-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC)
 - [dlrmsghks7/탐색 알고리즘을 알아봅시다!!:)](https://velog.io/@dlrmsghks7/%ED%83%90%EC%83%89-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%84-%EC%95%8C%EC%95%84%EB%B4%85%EC%8B%9C%EB%8B%A4)
