@@ -18,6 +18,6 @@
 
 # 완전 이진 트리
 
-# 최소 스패닝 트리
+# 최소 스패닝 트리 (Minimum Spanning Tree)
 
 # B-Tree

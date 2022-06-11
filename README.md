@@ -2,7 +2,7 @@
 * [연결리스트](note/dataStructure/linked_list.md)
 * [2차원 배열](note/dataStructure/2dm_list.md)
 * [Stack / Queue](note/dataStructure/stack_queue.md)
-* [우선순위큐 / 힙](note/dataStructure/queue_heap.md)
+* [우선순위큐 / 힙](note/dataStructure/prqueue_heap.md)
 * [해시 맵](note/dataStructure/hash_map.md)
 * [트리](note/dataStructure/tree.md)
     * 이진 트리(Binary Tree)
