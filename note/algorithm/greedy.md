@@ -16,4 +16,4 @@
 - 수학적으로 접근 : 반복되는 패턴이 있는 경우가 많음
 - 정렬 알고리즘과 짝을 이뤄 출제된다.
 
-[🏠 목록으로](https://github.com/SeeunChoi1/ProblemSolving#%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%9D%B4%EB%A1%A0-%EC%A0%95%EB%A6%AC)
+[🏠 목록으로](/README.md)
