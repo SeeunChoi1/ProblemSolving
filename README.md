@@ -36,7 +36,7 @@
 * [그리디](/note/algorithm/greedy.md)
 * [탐색](note/algorithm/search.md)
     * 순차 탐색
-    * 이진 탐색(Binary Search)
+    * [이진 탐색(Binary Search)](note/algorithm/binary_search.md)
 
 # Key Note
 * [2차원 배열 90도 회전](note/keyNote/rotateMatrix.md)
