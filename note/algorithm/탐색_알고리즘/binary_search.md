@@ -64,4 +64,5 @@ print(re)
 - 이것이 취업을 위한 코딩 테스트이다 (with Python) - 나동빈 저 
 - [ssongplay/[Python] bisect 라이브러리](https://velog.io/@ssongplay/Python-bisect-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC)
 
+[⬅️ 탐색](/note/algorithm/search.md)
 [🏠 목록으로](/README.md)

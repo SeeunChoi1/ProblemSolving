@@ -21,7 +21,6 @@
     * [KMP 알고리즘]()
     * [Trie 알고리즘]()
 * [그래프]()
-    * [DFS / BFS](note/algorithm/DFS_BFS.md)
     * [크루스칼 알고리즘]()
     * [위상정렬]()
 * [최단경로 알고리즘](note/algorithm/최단경로_알고리즘/shortestPath.md)
@@ -35,8 +34,11 @@
     * 계수 정렬 [LeetCode 구현]()
 * [그리디](/note/algorithm/greedy.md)
 * [탐색](note/algorithm/search.md)
-    * 순차 탐색
+    * [DFS](note/algorithm/%ED%83%90%EC%83%89_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/DFS.md)
+    * [BFS](note/algorithm/%ED%83%90%EC%83%89_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/BFS.md)
+    * 선형 탐색
     * [이진 탐색(Binary Search)](note/algorithm/binary_search.md)
+    * 해시 탐색
 
 # Key Note
 * [2차원 배열 90도 회전](note/keyNote/rotateMatrix.md)
