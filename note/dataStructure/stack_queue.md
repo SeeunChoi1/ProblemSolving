@@ -6,7 +6,7 @@
 > 오버플로 : 수용할 수 있는 크기를 넘어선 상태에서 삽입  
 > 언더플로 : 데이터가 없는 상태에서 삭제  
 
-Stack과 Queue를 활용한 대표적인 알고리즘에는 [DFS와 BFS](https://github.com/SeeunChoi1/ProblemSolving/blob/master/note/DFS_BFS.md)가 있음
+Stack과 Queue를 활용한 대표적인 알고리즘에는 [DFS](/note/algorithm/%ED%83%90%EC%83%89_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/DFS.md)와 [BFS](/note/algorithm/%ED%83%90%EC%83%89_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/BFS.md)가 있음
 
 ## 스택 Stack
 후입선출  

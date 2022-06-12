@@ -37,15 +37,15 @@ recursive_function(1)
 
 ## 예시코드 - 재귀
 ```python
-def dfs(graph, v, visited):
-    visited[v] = True
-    print(v, end=' ')
+def dfs(graph, start, visited):
+    visited[start] = True
+    print(start, end=' ')
     #현재 노드와 연결된 다른 노드를 재귀적으로 방문
-    for i in graph[v]:
+    for i in graph[start]:
         if not visited[i]:
             dfs(graph, i, visited)
 graph = [
-    [].
+    [],
     [2,3,8],
     [1,7],
     [1,4,5],
@@ -59,8 +59,73 @@ visited = [False]*9
 dfs(graph, 1, visited)
 ```
 
-## 예시코드 - stack
+## 예시코드 - stack1
+list 자료구조 활용
 ```python
+def dfs(graph, start, visited):
+    stack = []
+    stack.append(start)
+    #현재 노드와 연결된 다른 노드를 stack에서 pop
+    while stack:
+        now = stack.pop()
+        if not visited[now]:
+            visited[now] = True # 방문처리
+            print(now, end=' ')
+            for i in graph[now]:
+                if not visited[i]:
+                    stack.append(i)
+
+graph = [
+    [],
+    [2,3,8],
+    [1,7],
+    [1,4,5],
+    [3,5],
+    [3,4],
+    [7],
+    [2,6,8],
+    [1,7]
+]
+
+visited = [False]*9
+dfs(graph, 1, visited)
+```
+
+## 예시코드 - stack2
+- deque 자료구조 활용
+- list 쓰는 것과 로직은 동일함
+    - stack을 deque로 사용
+    - 성능면에서 일반 list를 쓰는 것보다 더 뛰어남
+```python
+from collections import deque
+
+def dfs(graph, start, visited):
+    stack = deque()
+    stack.append(start)
+    #현재 노드와 연결된 다른 노드를 stack에서 pop
+    while stack:
+        now = stack.pop()
+        if not visited[now]:
+            visited[now] = True # 방문처리
+            print(now, end=' ')
+            for i in graph[now]:
+                if not visited[i]:
+                    stack.append(i)
+
+graph = [
+    [],
+    [2,3,8],
+    [1,7],
+    [1,4,5],
+    [3,5],
+    [3,4],
+    [7],
+    [2,6,8],
+    [1,7]
+]
+
+visited = [False]*9
+dfs(graph, 1, visited)
 ```
 
 [⬅️ 탐색](/note/algorithm/search.md)
