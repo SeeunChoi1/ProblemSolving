@@ -13,13 +13,23 @@
 
 # 알고리즘 이론 정리
 * [복잡도](note/algorithm/complexity.md)
-* [순열 / 조합]()
-* [비트마스크]()
 * [투포인터]()
+* [누적합(Prefix Sum)]()
+* [비트마스크]()
+---
+
+> 백트래킹
+> - 순열/조합
+> - 중복순열/중복조합
+> - DFS도 결국은 백트래킹문제임
+
+* [순열 / 조합]()
 * [문자열]()
-    * [최장 공통 부분 수열(LSC, Longest Common Subsequence)]()
+    * [최장 공통 부분 수열(LSC, Longest Common Subsequence)](note/algorithm/문자열/LSC.md)
+    * [최장 증가 부분 수열(LIS, Longest Increasing Subsequence)](note/algorithm/문자열/LIS.md)
     * [KMP 알고리즘]()
-    * [Trie 알고리즘]()
+    * [Trie 알고리즘]() - 달달 외우기!
+    * 해싱 (하면 좋지만 어려우니까 Trie 알고리즘을 외우자!)
 * [그래프]()
     * [크루스칼 알고리즘]()
     * [위상정렬]()
