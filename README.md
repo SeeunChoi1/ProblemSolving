@@ -2,8 +2,8 @@
 * [연결리스트](note/dataStructure/linked_list.md)
 * [2차원 배열](note/dataStructure/2dm_list.md)
 * [Stack / Queue](note/dataStructure/stack_queue.md)
-    * Stack [LeetCode 구현]()
-    * Queue [LeetCode 구현]()
+    * Stack
+    * Queue
 * [우선순위큐 / 힙](note/dataStructure/prqueue_heap.md)
 * [해시 맵](note/dataStructure/hash_map.md)
 * [트리](note/dataStructure/tree/tree.md)
