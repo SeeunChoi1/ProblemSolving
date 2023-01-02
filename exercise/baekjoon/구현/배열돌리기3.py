@@ -40,23 +40,20 @@ def exe3(row_num, col_num, array):
     new_array = [[0] * row_num for _ in range(col_num)]
     print(*new_array, sep="\n")
     # row_num <-> col_num
-    # (i,j) -> (new_rm-1-j, new_cm-1-i)
     for i in range(row_num):
         for j in range(col_num):
-            print(i, j)
-            new_array[i][j] = array[col_num - 1 - i][row_num - 1 - j]
+            new_array[j][row_num - 1 - i] = array[i][j]
 
     return new_array
 
 
 # 4번 연산 - 왼쪽 90도 회전
 def exe4(row_num, col_num, array):
-    new_array = [[0] * col_num for _ in range(row_num)]
+    new_array = [[0] * row_num for _ in range(col_num)]
     # row_num <-> col_num
-    # (i,j) -> (new_rm-1-j, new_cm-1-i)
     for i in range(row_num):
         for j in range(col_num):
-            new_array[i][j] = array[col_num - 1 - i][row_num - 1 - j]
+            new_array[col_num - 1 - j][i] = array[i][j]
 
     return new_array
 
