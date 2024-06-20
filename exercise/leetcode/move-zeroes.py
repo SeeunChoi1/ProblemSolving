@@ -17,3 +17,16 @@ class Solution(object):
                 nums[pointer] = 0
             index += 1
             pointer += 1
+
+        '''
+        1. 0이면 변경하기 -> 바꿀 숫자를 찾아야함
+        2. 숫자면 변경하기 -> 0과 바꾸면  (1:1로 변경이라 다른 숫자 신경X)
+        '''
+        # non_zero = 0  # Pointer for non-zero elements
+        #
+        # # Move all non-zero elements to the front
+        # for i in range(len(nums)):
+        #     if nums[i] != 0:
+        #         nums[i], nums[non_zero] = nums[non_zero], nums[i]
+        #         non_zero += 1
+        #     print(nums, non_zero)
