@@ -12,7 +12,6 @@ class Solution(object):
                 while nums[pointer] == 0:
                     if pointer == len(nums)-1:  # no more non-zero
                         break
-                    print('while >>', pointer)
                     pointer += 1
                 nums[index] = nums[pointer]
                 nums[pointer] = 0
