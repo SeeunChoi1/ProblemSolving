@@ -13,11 +13,10 @@ class Solution(object):
         if not s:
             return True
 
-        if t:
-            for elem in t:
-                if elem == s[index]:
-                    index += 1
-                if index == len(s):
-                    return True
+        for elem in t:
+            if elem == s[index]:
+                index += 1
+            if index == len(s):
+                return True
         else:
             return False
