@@ -20,3 +20,30 @@ class Solution(object):
                 left += 1
                 right -= 1
         return ans
+
+    '''
+    **********************************
+    Use Hash Table
+    **********************************
+    class Solution(object):
+    def maxOperations(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: int
+        """
+        dic = {}
+        ans = 0
+        
+        for n in nums:
+            if k-n in dic and dic[k-n]>0:
+                # k-n이 있다면 n은 dic에 넣을 필요 없음 (넣어도 꺼내서 써야되니까)
+                ans += 1
+                dic[k-n] -= 1
+            elif n not in dic:
+                dic[n] = 1
+            else:
+                dic[n] += 1
+            print(dic)
+        return ans
+    '''
